@@ -10,7 +10,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="200dp"
+
         android:id="@+id/et_input"
         android:layout_margin="10dp"
         android:hint="请输入信息"/>
@@ -26,6 +27,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_startspeektext"
         android:text="语音合成"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_startrecognize"
+    android:text="语音识别"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_startduihua"
+        android:text="语音理解"/>
 
 
 </LinearLayout>

@@ -1,0 +1,10 @@
+#ABNF 1.0 UTF-8;
+language zh-CN; 
+mode voice;
+
+root $main;
+$main =[我] [想] [$go] ( $opera1 | $location) ;
+$go = 去 | 要 | 到 | 向 ;
+$opera1 = 左转 | 右转 | 前进 | 后退 | 开灯 | 关灯 | 打电话 | 发短信 | 点外卖;
+$location = 图书馆 | 群英楼 | 中心楼 | 中山院 | 沙糖园 | 香园 | 东南大学;
+
